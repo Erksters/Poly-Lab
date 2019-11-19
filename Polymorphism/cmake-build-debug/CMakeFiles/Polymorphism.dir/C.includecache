@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/erksters/CLionProjects/Polymorphism/Shape.h
+stdio.h
+-
+
+/cygdrive/c/Users/erksters/CLionProjects/Polymorphism/Square.h
+stdlib.h
+-
+stdio.h
+-
+Shape.h
+/cygdrive/c/Users/erksters/CLionProjects/Polymorphism/Shape.h
+
+/cygdrive/c/Users/erksters/CLionProjects/Polymorphism/Triangle.h
+stdlib.h
+-
+stdio.h
+-
+Shape.h
+/cygdrive/c/Users/erksters/CLionProjects/Polymorphism/Shape.h
+
+/cygdrive/c/Users/erksters/CLionProjects/Polymorphism/main.c
+stdio.h
+-
+Shape.h
+/cygdrive/c/Users/erksters/CLionProjects/Polymorphism/Shape.h
+Square.h
+/cygdrive/c/Users/erksters/CLionProjects/Polymorphism/Square.h
+Triangle.h
+/cygdrive/c/Users/erksters/CLionProjects/Polymorphism/Triangle.h
+

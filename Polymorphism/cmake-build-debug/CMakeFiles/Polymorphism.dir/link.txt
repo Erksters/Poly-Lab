@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Polymorphism.dir/main.c.o CMakeFiles/Polymorphism.dir/Shape.c.o  -o Polymorphism.exe -Wl,--out-implib,libPolymorphism.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
